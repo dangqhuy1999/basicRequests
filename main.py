@@ -5,7 +5,7 @@ headers = {
     'x-api-key': ''
 }
 
-response = requests.get('https://intranet.cennext.com/api/discord_subscribe', headers=headers)
+response = requests.get(URL, headers=headers)
 
 print("Status Code:", response.status_code)
 print("Status Code:", response.text)
